@@ -63,16 +63,25 @@ width:100%;
 }
 .categoryDropdown {
   position: relative;
-  left:22px;
+  left:0px;
+}
+.categoryDropdown{
+  font-size: 14px;
 }
 #categoryDropdownList{
   display: none;
   position: absolute;
   background-color: #fff;
   padding: 10px 0;
-  width: 103px;
-  left: 0;
-  bottom: -90px;
+  width: 150px;
+  left: -15px;
+  bottom: -132px
+}
+.categoryDropdownListItem{
+  padding: 5px 0px;
+}
+.categoryDropdownListItem a{
+  color: #000;
 }
 .categoryDropdown:hover #categoryDropdownList{
   display: block;
