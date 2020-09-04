@@ -86,6 +86,9 @@ width:100%;
 .categoryDropdownListItem a{
   color: #000;
 }
+.categoryDropdownListItem a:hover{
+  color: #CB6724;
+}
 .browse-container:hover #categoryDropdownList{
   display: block;
 }
