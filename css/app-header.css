@@ -20,7 +20,7 @@ height:100%;
 }
 #logoText{
 width:445px;
-height:70px;
+height:72px;
 margin:0 auto;
 }
 #logoText img{
@@ -82,7 +82,7 @@ width:100%;
   justify-content: center;
 }
 #rightheader{
-  height: 120px;
+  height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
