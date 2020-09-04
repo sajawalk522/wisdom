@@ -27,6 +27,12 @@ footer p{
 #leftfooter .horizontal li{
     padding:5px;
 }
+#rightfooter p a:hover{
+    color: #c55c14;
+}
+.mid-conatainer .horizontal li a:hover{
+    color: #c55c14;
+}
 #leftfooter h6{
     color:#DE7014;
     font-size:14px;

@@ -86,7 +86,7 @@ width:100%;
 .categoryDropdownListItem a{
   color: #000;
 }
-.categoryDropdown:hover #categoryDropdownList{
+.browse-container:hover #categoryDropdownList{
   display: block;
 }
 #dropdown-main{
