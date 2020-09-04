@@ -72,10 +72,13 @@ width:100%;
   display: none;
   position: absolute;
   background-color: #fff;
-  padding: 10px 0;
-  width: 150px;
+  padding: 10px 10px;
+  width: 180px;
   left: -15px;
-  bottom: -132px
+  bottom: 0px;
+  top: 21px;
+  height: 300px;
+  text-align: left;
 }
 .categoryDropdownListItem{
   padding: 5px 0px;
