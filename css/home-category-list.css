@@ -32,9 +32,12 @@
     justify-content: space-around;
 }
 #image-text .bookInfo li{
-   font-size: 16px;
+   font-size: 15px;
    margin-right: 5px;
    text-align: left;
+}
+.bookAuthor{
+    font-style: italic;
 }
 .bookButtonLink{
 	width: 30px;
