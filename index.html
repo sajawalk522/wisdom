@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Bookstore</title>
+    <meta charset="utf-8">
+    <meta name="description" content="The homepage for My Bookstore">
+
+    <!--
+        normalize-and-reset.css is a basic CSS reset
+        useful for starting from ground zero
+        always include this first
+    -->
+
+    <link rel="stylesheet" href="css/normalize-and-reset.css">
+
+    <!--
+        order is important
+        start from the top-level component and work your way down
+    -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app-header.css">
+    <link rel="stylesheet" href="css/header-search-bar.css">
+    <link rel="stylesheet" href="css/header-category-dropdown.css">
+    <link rel="stylesheet" href="css/app-footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home-category-list.css">
+    <link rel="stylesheet" href="css/home-suggested-book-list.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="leftheader">
+            <div id="logo">
+                <a href="index.jsp">
+                    <img src="images/site/bookstore-logo.png" alt="My Bookstore Logo" height=200px width=200px />
+                </a>
+            </div>
+        </div>
+        <div id="midheader">
+            <div class="flex">
+                <!-- <h1>Wisdom Bookstore</h1>-->
+                <div id="logoText">
+                    <a href="#"><img src="images/site/logo-text.PNG" alt="Wisdom Bookstore" /></a>
+                </div>
+                <div class="search-container"> 
+                    <div class="browse-container">
+                        <div class="container-cat">
+                            <p>Browse Categories</p>
+                        </div>
+                        <div class="image-browse"><img src="images/site/bars.jpg"/></div>
+                    </div>
+                    <form id="searchForm" action="category.html">
+                        <input id="searchBar" type="text" placeholder="Enter keyword, title or author ">
+                        <input id="searchIcon" type="image" src="images/site/search.jpg" alt="Search Icon">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="rightheader">
+            <div id="right-cart">
+                <div id="cartButton">
+                    <a href="#"><img src="images/site/cart-logo.png" alt="Cart Icon" /></a>
+                    <div id="cartCount">1</div>
+                </div>
+                <div id="loginButton">Tanvi</div>
+                <div id="loginButton">Login</div>
+            </div>
+            <div id="dropdown-main">
+                <div id="loginButton" class="categoryDropdown">
+                    <h1>Categories</h1>
+                    <ul id="categoryDropdownList">
+                        <li class="categoryDropdownListItem">
+                            <a href="category.html?name=category-1">Category 1</a>
+                        </li>
+                        <li class="categoryDropdownListItem">
+                            <a href="category.html?name=category-2">Category 2</a>
+                        </li>
+                        <li class="categoryDropdownListItem">
+                            <a href="category.html?name=category-3">Category 3</a>
+                        </li>
+                        <li class="categoryDropdownListItem">
+                            <a href="category.html?name=category-4">Category 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="navigation-header">
+        <div class="navigation-items">
+            <ul>
+                <li><div><img src="images/site/book.jpg" /></div>
+                    <h6>Books</h6>
+                </li>
+                <li><div><img src="images/site/paisay.jpg" /></div>
+                    <h6>Sell Books</h6>
+                </li>
+                <li><div><img src="images/site/book.jpg" /></div>
+                    <h6>eBooks</h6>
+                </li>
+                <li><div><img src="images/site/maga.jpg" /></div>
+                    <h6>Magazines</h6>
+                </li>
+                <li><div><img src="images/site/sale.jpg" /></div>
+                    <h6>Sale</h6>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div id = "Upperhome">
+            <a href="index.jsp">
+                <img src="images/site/upperhome.PNG" alt="Homepage"/>
+            </a>
+    
+        </div>
+        <div id = "Lowerhome">
+    
+    
+        </div>
+    
+    
+    
+    </section>
+    <!-- Images section start -->
+    <main>
+        
+      
+        <article id="image-grid-home">
+           <h5>*** Recommended Books *** </h5>
+            <ul id="bookBoxes">
+                <!-- Product image 1 start -->
+                <li class="bookBlock">
+                    <div class="bookImage">
+                        <a href="#">
+                            <img src="images/site/image1.jpg" alt="The Hobbit">
+                        </a>
+                    </div>
+                   <div id="image-text">
+                    <ul class="bookInfo">
+                        <li class="bookTitle">The Last One Out</li>
+                        <li class="bookAuthor">By Victor Adams</li>
+                        
+                    </ul>
+                    
+                   </div>
+                </li>
+           <!-- Product image 2 start -->
+            <li class="bookBlock">
+                <div class="bookImage">
+                    <a href="#">
+                        <img src="images/site/image2.jpg" alt="The Hobbit">
+                    </a>
+                </div>
+            <div id="image-text">
+                <ul class="bookInfo">
+                    <li class="bookTitle">Rebel</li>
+                    <li class="bookAuthor">By Marie Lu</li>
+                </ul>
+               
+            </div>
+            </li>
+             <!-- Product image 3 start -->
+             <li class="bookBlock">
+                <div class="bookImage">
+                    <a href="#">
+                        <img src="images/site/image3.jpg" alt="The Hobbit">
+                    </a>
+                </div>
+               <div id="image-text">
+                <ul class="bookInfo">
+                    <li class="bookTitle">Bears’s All-Night Party</li>
+                    <li class="bookAuthor">By Bill Harley</li>
+                   
+                </ul>
+                
+               </div>
+            </li>
+             <!-- Product image 4 start -->
+             <li class="bookBlock">
+                <div class="bookImage">
+                    <a href="#">
+                        <img src="images/site/image4.jpg" alt="The Hobbit">
+                    </a>
+                </div>
+               <div id="image-text">
+                <ul class="bookInfo">
+                    <li class="bookTitle">The Terrible Twos</li>
+                    <li class="bookAuthor">By Mac Burnett</li>
+                </ul>
+                
+               </div>
+            </li>
+          </ul>
+          <h5>!!! Books on sale !!!</h5>
+          <ul id="bookBoxes">
+              <!-- Product image 1 start -->
+              <li class="bookBlock">
+                  <div class="bookImage">
+                      <a href="#">
+                          <img src="images/site/image5.jpg" alt="The Hobbit">
+                      </a>
+                  </div>
+                 <div id="image-text" class="sale-image">
+                  <ul class="bookInfo red">
+                      <li class="bookTitle">RRP $29.99</li>
+                  </ul>
+                  <ul class="bookInfo red">
+                    <li class="bookTitle">$20.99</li>
+                </ul>
+                  
+                 </div>
+              </li>
+         <!-- Product image 2 start -->
+          <li class="bookBlock">
+              <div class="bookImage">
+                  <a href="#">
+                      <img src="images/site/image6.jpg" alt="The Hobbit">
+                  </a>
+              </div>
+          <div id="image-text" class="sale-image">
+            <ul class="bookInfo red">
+                <li class="bookTitle">RRP $49.99 </li>
+            </ul>
+            <ul class="bookInfo red">
+              <li class="bookTitle">$41.99</li>
+          </ul>
+             
+          </div>
+          </li>
+           <!-- Product image 3 start -->
+           <li class="bookBlock">
+              <div class="bookImage">
+                  <a href="#">
+                      <img src="images/site/image7.jpg" alt="The Hobbit">
+                  </a>
+              </div>
+             <div id="image-text" class="sale-image">
+                <ul class="bookInfo red">
+                    <li class="bookTitle">RRP $29.99</li>
+                </ul>
+                <ul class="bookInfo red">
+                  <li class="bookTitle">$25.99</li>
+              </ul>
+              
+             </div>
+          </li>
+           <!-- Product image 4 start -->
+           <li class="bookBlock">
+              <div class="bookImage">
+                  <a href="#">
+                      <img src="images/site/image8.jpg" alt="The Hobbit">
+                  </a>
+              </div>
+             <div id="image-text" class="sale-image">
+                <ul class="bookInfo red">
+                    <li class="bookTitle">RRP $29.99</li>
+                </ul>
+                <ul class="bookInfo red">
+                  <li class="bookTitle">$20.99</li>
+              </ul>
+              
+             </div>
+          </li>
+        </ul>
+        </article>
+    </main>
+    </main>
+    <footer>
+        <div id="leftfooter">
+            <h6>Follow us on:</h6>
+            <div class="flexItem">
+                <ul class="horizontal">
+                    <li><a href="#"><img src="images/site/tw.jpg" width="32" height="32"></a></li>
+                    <li><a href="#"><img src="images/site/fb.jpg" width="32" height="32"></a></li>
+                    <li><a href="#"><img src="images/site/in.jpg" width="32" height="32"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid-conatainer">
+            <div>
+                <ul class="horizontal">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Directions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <p>© 2020 WisdomBookstore Inc. All Rights Reserved</p>
+            </div>
+        </div>
+        <div id="rightfooter">
+            <div class="flexItem">
+                <p>For feedback/suggestions:</p>
+                <p><a href="#">Click Here</a></p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>

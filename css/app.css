@@ -1,0 +1,31 @@
+
+body {
+    font: 1em normal Verdana, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin:20px;
+    text-align: center;
+}
+
+main {
+    /* background-color: rgb(246,181,154); */
+    /* stack header-section-footer on all pages */
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 1000px; */
+}
+
+a,
+a:visited,
+input[type=submit] {
+	/* do NOT use blue for this; change the color to fit your theme */
+    color: blue;
+}
+
+a:hover,
+a:active,
+input[type=submit]:hover,
+ul.buttons a:hover{
+	/* do NOT use purple for this; change the color to fit your theme */
+    color: purple;
+}

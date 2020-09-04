@@ -1,0 +1,25 @@
+
+#category-nav{
+    width: 25%;
+    text-align: left;
+    border-right: 2px solid #000;
+}
+#category-nav h5{
+    background-color: #fbe5d6;
+    color: #e07517;
+    padding: 10px;
+    font-size: 20px;
+}
+#categoryButtons .categoryButton{
+    padding: 10px;   
+}
+#categoryButtons .categoryButton:hover{
+    background-color: #ccc;
+}
+#categoryButtons .categoryButton a{
+    font-size: 18px;
+    color: #000;
+}
+#categoryButtons .active{
+    background-color: #ccc;
+}
