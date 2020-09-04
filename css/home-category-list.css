@@ -5,10 +5,10 @@
     padding-bottom: 30px;
 }
 #image-grid-home h5{
-	padding: 30px;
+	padding-bottom: 10px;
 	text-align: center;
 	color: #548235;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
 }
 #bookBoxes{
