@@ -57,3 +57,9 @@
 	width: 100%;
 	height: 100%;
 }
+.cate-text .bookTitle{
+  font-style: italic;
+}
+.cate-text .bookPrice{
+	color: orange;
+}
