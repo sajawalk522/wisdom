@@ -52,6 +52,7 @@
 }
 #bookBoxes .bookBlock .bookImage{
 	width: 200px;
+	height: 210px;
 }
 #bookBoxes .bookBlock .bookImage a img{
 	width: 100%;
